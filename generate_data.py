@@ -5,7 +5,7 @@ Script to generate synthetic student data.
 This script uses the StudentGenerator class to create a dataset of synthetic
 student records and save it to the data/raw directory.
 """
-from src.data_generator import StudentGenerator
+from src.data.data_generator import StudentGenerator
 
 def main():
     """Generate and save synthetic student data."""
