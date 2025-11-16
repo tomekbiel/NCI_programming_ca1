@@ -144,6 +144,27 @@ class StudentGenerator:
         - Some fail or drop (False)
         """
         return np.random.choice([True, False], p=[0.7, 0.3])
+    def generate_address(self):
+        address = self.fake.address().replace("\n", ", ")
+
+        if np.random.rand() < 0.10:
+            address = address.replace("Street", "Streeet")
+
+        if np.random.rand() < 0.08:
+            address = address.replace(",", "")
+
+        if np.random.rand() < 0.05:
+            address = address.upper()
+
+        if np.random.rand() < 0.03:
+            words = address.split()
+            if len(words) > 3:
+                address = " ".join(words[:-2])
+
+        if np.random.rand() < 0.02:
+            address = address.replace("Co. ", "").replace("Dublin", "Dublin County")
+
+        return address
 
     # -----------------------------
     # Aggregate student record
