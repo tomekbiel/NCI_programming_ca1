@@ -18,7 +18,7 @@ MANDATORY ELEMENTS (REQUIRED)
 5. classify_performance()      – apply + lambda transformation
 
 ---------------------------------------------------------------------
-EXTENDED ANALYSIS (MINCLUDED BY DEFAULT)
+EXTENDED ANALYSIS (INCLUDED BY DEFAULT)
 ---------------------------------------------------------------------
 6. distribution_shape()        – skewness, kurtosis, IQR; distribution profile
 7. outlier_detection()         – 2×IQR rule
