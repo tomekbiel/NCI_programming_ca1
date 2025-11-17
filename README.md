@@ -18,8 +18,7 @@ NCI_programming_ca1/
 │   ├── processed/     # Cleaned data ready for analysis
 │   └── external/      # External data sources
 ├── docs/              # Project documentation
-├── notebooks/         # Jupyter notebooks for analysis
-├── reports/           # Generated analysis reports and visualizations
+├── reports/           # (Planned) Will contain generated reports and visualizations
 ├── src/               # Source code
 │   ├── analysis.py       # Data analysis functions
 │   ├── data_cleaning.py  # Data cleaning utilities
